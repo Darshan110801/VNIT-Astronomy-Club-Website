@@ -10,7 +10,7 @@
         </ol>
         <div class="carousel-inner" role="listbox">
             {% for carousel in carousels %}
-                {% with carousel.image as IMAGE_PATH %}
+                {% with carousel.images as IMAGE_PATH %}
                         <div class="carousel-item {{ carousel.active }}">
                             <a href="#">
                                 <picture>

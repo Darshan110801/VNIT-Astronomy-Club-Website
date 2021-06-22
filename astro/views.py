@@ -22,7 +22,7 @@ def home(request):
         'caption': 'Are you one of those Space buffs? Wanna hone you amateur skills in Astronomy? Look no'
                    ' further you have reached your destination! Welcome to Astro Club VNIT!'
     }, {
-        'image': {
+        'images': {
             'pc':'https://github.com/Darshan110801/VNIT-Astronomy-Club-Website/blob/master/static/images/im2.jpg?raw=true',
             'mob':'https://github.com/Darshan110801/VNIT-Astronomy-Club-Website/blob/master/static/images/im2m.jpg?raw=true'
         },
@@ -31,7 +31,7 @@ def home(request):
                    'member Ojas Sharma.'
     },
         {
-            'image': {
+            'images': {
                'pc': 'https://github.com/Darshan110801/VNIT-Astronomy-Club-Website/blob/master/static/images/im4.jpg?raw=true',
                'mob': 'https://github.com/Darshan110801/VNIT-Astronomy-Club-Website/blob/master/static/images/im4m.jpg?raw=true'
             },
